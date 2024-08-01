@@ -1,0 +1,8 @@
+@keyframes chicken-animation {
+    0% {
+        background-image: url(chicken.png);
+    }
+    100% {
+        background-image: url(chicken.png);
+    }
+}

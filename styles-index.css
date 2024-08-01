@@ -1,0 +1,58 @@
+@import url(_assets/sprites/animations.css);
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 99vh;
+
+    background-image: url(./_assets//sprites/background-grass/grass_01.png);
+    background-repeat: repeat;
+}
+
+#game {
+    width: 100%;
+    height: 100%;
+
+    .object{
+        position: absolute;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        transform: translate(-50%,-50%);
+
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+
+        .lifeBar {
+            height: 10%;
+            background-color: #f00;
+        }
+    }
+
+    .coletable {
+        position: absolute;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        transform: translate(-50%,-50%);
+
+        width: 2vw;
+        height: 2vw;
+    }
+
+    .player {
+        width: 3vw;
+        height: 3vw;
+
+        .lifeBar {
+            background-color: #0f0;
+        }
+    }
+    
+    .enemy {
+        width: 3vw;
+        height: 4vw;
+    }
+}

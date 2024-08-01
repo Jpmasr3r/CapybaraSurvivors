@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "chrome",
+            "name": "http://localhost/CapybaraSurvivors/",
+            "request": "launch",
+            "url": "http://localhost/CapybaraSurvivors/"
+        }
+    ]
+}

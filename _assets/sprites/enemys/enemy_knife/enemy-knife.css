@@ -1,0 +1,50 @@
+@keyframes enemy-knife-animation {
+    0% {
+        background-image: url(enemy_knife_01.png);
+    }
+    12.5% {
+        background-image: url(enemy_knife_01.png);
+    }
+    12.6% {
+        background-image: url(enemy_knife_02.png);
+    }
+    25% {
+        background-image: url(enemy_knife_02.png);
+    }
+    26% {
+        background-image: url(enemy_knife_03.png);
+    }
+    37.5% {
+        background-image: url(enemy_knife_03.png);
+    }
+    37.6% {
+        background-image: url(enemy_knife_04.png);
+    }
+    50% {
+        background-image: url(enemy_knife_04.png);
+    }
+    51% {
+        background-image: url(enemy_knife_05.png);
+    }
+    62.5% {
+        background-image: url(enemy_knife_05.png);
+    }
+    62.6% {
+        background-image: url(enemy_knife_06.png);
+    }
+    75% {
+        background-image: url(enemy_knife_06.png);
+    }
+    76%{
+        background-image: url(enemy_knife_07.png);
+    }
+    87.5%{
+        background-image: url(enemy_knife_07.png);
+    }
+    87.6% {
+        background-image: url(enemy_knife_08.png);
+    }
+    100% {
+        background-image: url(enemy_knife_08.png);
+    }
+}
